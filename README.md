@@ -1,4 +1,4 @@
-# Detecting 3D Hand Pointing Directionfrom RGB-D Data in Wide-Ranging HRI Scenarios
+# Detecting 3D Hand Pointing Direction from RGB-D Data in Wide-Ranging HRI Scenarios
 
 
 
