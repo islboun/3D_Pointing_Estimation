@@ -1,3 +1,17 @@
+/*
+
+Author: Mirhan Ürkmez
+Date:15/01/2021
+Description: There are 3 functions in this file:
+int main():                 Takes data and performs 3D pointing direction estimation and compares the estimated direction to the ground truth direction.
+float cloud_process():      Calculates 3D direction given the data.
+seg_ground():               Ground segmentation function.    
+
+*/
+
+
+
+
 // PCL specific includes
 //#include <pcl_conversions/pcl_conversions.h>
 #include <pcl/point_cloud.h>
