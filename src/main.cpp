@@ -92,6 +92,7 @@ float cloud_process(Mat depth, Mat rgb, pcl::PointXYZRGB line_point,float x_dir,
     normal=hand_obj_proc.get_hand_orientation(hand_leftTop, hand_rightBottom, plane_dist, center1, center2);
    
     //calculate error angle
+    //Comment this part to not use the ground truth.
     float normal_length = sqrt(normal(0) * normal(0) + normal(1) * normal(1) + normal(2) * normal(2));
     float ground_length = sqrt(x_dir *  x_dir + y_dir * y_dir  + z_dir * z_dir);
     float angle = 180*acos(fabs(normal(0) * x_dir + normal(1) * y_dir + normal(2) * (z_dir))/(normal_length*ground_length))/M_PI;
