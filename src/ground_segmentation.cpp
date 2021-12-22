@@ -1,3 +1,13 @@
+/*
+
+Author: Meriç Durukan
+Date:05/05/2020
+Description: Ground segemntation class   
+
+*/
+
+
+
 #include "ground_segmentation.h"
 
 
