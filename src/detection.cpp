@@ -1,7 +1,7 @@
 /*
 
 Author: Mirhan Ürkmez
-Date:15/01/2021
+Date: 22/10/2020
 Description: Codes for hand and human detection on RGB images using yolov4 models are included.    
 
 */
