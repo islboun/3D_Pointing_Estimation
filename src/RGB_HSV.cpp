@@ -1,3 +1,13 @@
+/*
+
+Author: Mirhan Ürkmez
+Date:10/11/2020
+Description: This file includes the code for transforming RGB to HSV color format and 
+             HSV distance calculation.
+
+*/
+
+
 #include "RGB_HSV.h"
 
 hsv rgb2hsv(rgb in)
