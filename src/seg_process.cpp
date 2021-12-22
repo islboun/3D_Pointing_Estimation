@@ -1,3 +1,12 @@
+/*
+
+Author: Mirhan Ürkmez
+Date:17/12/2020
+Description: Estimation of 3D pointing direction codes from hand point cloud data.  
+
+*/
+
+
 #include "lidar_seg.h"
 #include "RGB_HSV.h"
 #include "seg_process.h"
