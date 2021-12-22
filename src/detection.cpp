@@ -1,3 +1,12 @@
+/*
+
+Author: Mirhan Ürkmez
+Date:15/01/2021
+Description: Codes for hand and human detection on RGB images using yolov4 models are included.    
+
+*/
+
+
 #include "detection.h"
 
 using namespace std;
