@@ -1,3 +1,13 @@
+/*
+
+Authors: Meriç Durukan & Mirhan Ürkmez
+Date:15/01/2021
+Description: Segmentation of RGB-D data using pointcloud library is performed.
+
+*/
+
+
+
 #include "lidar_seg.h"
 #include "RGB_HSV.h"
 #include <iostream>
@@ -43,11 +53,6 @@ void lidar_seg::set_cloud(pcl::PointCloud<pcl::PointXYZ>::Ptr  in_cloud ){
   get_cloud(in_cloud);
 }
 
-/*
-Author: M.U
-Date: 11/18/2020
-Method: This method sets parameters of the class with depth image.
-*/
 void lidar_seg::set_cloud( cv::Mat depth) {
 
     visited.clear();
@@ -459,9 +464,7 @@ void lidar_seg::to_sphere(cv::Mat depth, cv::Mat rgb, vector<cv::Rect> hand_loc)
 
 
 /*
-Author: M.U
-Date: 11/11/2020
-Method: This method generates point cloud expressed in spherical coo. form an input 2-D depth Matrix expressed wrt pan and titl angles.
+Method: This method generates point cloud expressed in spherical coo. form an input 2-D depth Matrix expressed wrt pan and tilt angles.
 */
 
 void lidar_seg::to_sphere(pcl::PointCloud<pcl::PointXYZ>::Ptr depth_pcl, cv::Mat rgb, vector<cv::Rect> hand_loc) {
@@ -759,8 +762,6 @@ void::lidar_seg::segment(cv::Mat depth, cv::Mat rgb, vector<cv::Rect> hand_loc) 
 
 
 /*
-Author: Mirhan U.
-Date: 11/28/2020
 Method: Depth data segmentation
 
 */
