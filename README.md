@@ -17,7 +17,7 @@ This paper addresses the detection of 3D hand point-ing  direction  from  RGB-D 
 ## Usage
 The repository contains source and header files for 3D Pointing Direction Estimation. The code uses RGB and Depth images of the same scene, compare the estimated direction with the ground truth and outputs 3D angle between 2 directions. Here are the instructions to use the code.
 
-1. Download 3D Pointing Direction Data Set and put the folders containing RGB, Depth images and annotation files under the same folder with code files.
+1. Download [3D Pointing Direction Data Set](https://cloud.boun.edu.tr/public.php?service=files&t=4e8d5b9a876479f8c71ab2b5216b663e) and put the folders containing RGB, Depth images and annotation files under the same folder with code files.
 
 2. Download Yolo weights and .cfg files and put them under "yolo_files" folder.
 
