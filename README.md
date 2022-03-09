@@ -2,7 +2,7 @@
 
 
 
-This repository contains the codes for our HRI 2022 paper titled as "Detecting 3D Hand Pointing Direction from RGB-D Data in Wide-Ranging HRI Scenarios".
+This repository contains the codes for our HRI 2022 paper titled as ["Detecting 3D Hand Pointing Direction from RGB-D Data in Wide-Ranging HRI Scenarios".](https://dl.acm.org/doi/abs/10.5555/3523760.3523819) 
 
 [Pointing Gesture](https://cloud.boun.edu.tr/public.php?service=files&t=37183da3c56fb59224af57de8bb02e30) & [3D Pointing Direction](https://cloud.boun.edu.tr/public.php?service=files&t=4e8d5b9a876479f8c71ab2b5216b663e) Data Sets can be downloaded from the links.
 
