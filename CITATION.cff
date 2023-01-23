@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
-  - family-names: Urkmez, Bozma
-    given-names: Mirhan, H. Işıl
+  - family-names: Urkmez, Mirhan
+    given-names: Bozma, H. Işıl
     orcid: https://orcid.org/0000-0003-4925-7248
 title: "3D Pointing Estimation"
 version: 2.0.4
